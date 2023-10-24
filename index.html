@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | NFT preview card component</title>
+  <style>
+    body{
+    background-color:hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    .card{
+     width: 290px;
+    justify-content: center;
+      align-items: center;
+      margin-top: 0px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: hsl(216, 50%, 16%);
+      border-radius: 20px;
+      max-width: 375px;
+    }
+    @media(min-width:1440px){
+      .card{
+        max-width:1440 ;
+      }
+    }
+    .img1 img{
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .p1{
+      justify-content: center;
+    }
+    .r1{
+      display: block;
+      color: white;
+      align-items: start;
+      font-size: 18px;
+      margin-top: 17px;
+      font-family: 'Outfit', sans-serif;
+    }
+    .r2{
+      font-size: 18px;
+      font-family:'Outfit', sans-serif;
+      color: hsl(215, 32%, 27%);
+      margin-top: 10px;
+    }
+    .r3,.r4{
+      font-size: 18px;
+      font-family: 'Outfit', sans-serif;
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .r3{
+      color: hsl(178, 100%, 50%);
+    }
+    .r4{
+      color:hsl(215, 51%, 70%);
+    }
+    .l1{
+      padding-right: 9px;
+    }
+    .l2{
+      padding-right: 9px;
+      margin-top: -11px;
+    }
+    .u1{
+      margin-right: 80px;
+    }
+    .u2{
+    margin-top: 6px;
+    }
+    .hr1{
+      border: 3px;
+      border-top: 0.2px solid hsl(215, 32%, 27%);
+    }
+    .ooo{
+      max-width: 45px;
+      border: 1px solid white;
+      border-radius: 60px;
+      margin-top: 5px;
+      display: flex;
+      margin-right: 15px;
+    }
+    .iii{
+      display: flex;
+    }
+    .mm{
+      color:hsl(215, 32%, 27%) ;
+      font-family: 'Outfit', sans-serif;
+      margin-right: 2px;
+      
+    }
+    .ppppp{
+      margin-top: 16px;
+      font-family: 'Outfit', sans-serif;
+      color: white;
+
+    }
+  </style>
+</head>
+<body>
+<div class="card">
+  <div class="img1">
+    <img src="images/image-equilibrium.jpg">
+  </div>
+  <div class="p1">
+     <div class="r1">
+      Equilibrium #3429
+    </div>
+    <div class="r2">
+
+    Our Equilibrium collection promotes balance and calm.
+    </div>
+<div class="sai">
+    <div class="r3">
+      <svg class="l1" width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
+     <p class="u1">0.041 ETH</p>
+      
+      <div class="r4">
+      <svg class="l2" width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
+      <p class="u2">3 days left</p></div>
+      </div>
+      <hr class="hr1">
+<div class="iii">
+  <img class="ooo" src="images/image-avatar.png">
+    <p class="mm">Creation of <p class="ppppp">Jules Wyvern</p> </p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
